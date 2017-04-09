@@ -1,24 +1,4 @@
-<div class="ft_code_wrap clearfix" id="footerQRcode">
-  <div class="ft_mobile_code clearfix"> 
-  <img width="90" height="90" src="themes/yihaodian/images/iphone.jpg" alt="EC模板堂客户端二维码">
-    <dl>
-      <dt>EC模板堂客户端</dt>
-      <dd>用着很方便！</dd>
-      <dd> 
-      <a href="https://itunes.apple.com/cn/app/ecshop-mo-ban-tang/id773051406?mt=8" target="_blank" class="ft_iphone" rel="nofollow"><i></i>iPhone</a> 
-      <a href="https://itunes.apple.com/cn/app/ecshop-mo-ban-tanghd/id940333287?mt=8" target="_blank" class="ft_ipad" rel="nofollow"><i></i>iPad</a> 
-      <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.ecmoban.android.moban" target="_blank" class="ft_android" rel="nofollow"><i></i>Android</a> 
-      </dd>
-    </dl>
-  </div>
-  <div class="ft_mobile_code clearfix"> 
-  <img width="90" height="90" src="themes/yihaodian/images/suspension-code.jpg" alt="EC模板堂客户端二维码">
-    <dl>
-      <dt>EC模板堂官方微信</dt>
-      <dd>万千优惠资讯抢先收到，互动、查物流一步搞定！</dd>
-    </dl>
-  </div>
-</div>
+
 <div id="footer">
   <div class="ft_footer_service"> 
   <a href="#" target="_blank"><span class="s1"></span>全国包邮</a> 
@@ -29,13 +9,13 @@
   <?php if ($this->_var['navigator_list']['bottom']): ?>
    
   <p class="ft_footer_link"> 
-  <?php $_from = $this->_var['navigator_list']['bottom']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav_0_61062400_1491509650');$this->_foreach['nav_bottom_list'] = array('total' => count($_from), 'iteration' => 0);
+  <?php $_from = $this->_var['navigator_list']['bottom']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav_0_26578900_1491732835');$this->_foreach['nav_bottom_list'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['nav_bottom_list']['total'] > 0):
-    foreach ($_from AS $this->_var['nav_0_61062400_1491509650']):
+    foreach ($_from AS $this->_var['nav_0_26578900_1491732835']):
         $this->_foreach['nav_bottom_list']['iteration']++;
 ?>
   
-    <a href="<?php echo $this->_var['nav_0_61062400_1491509650']['url']; ?>" <?php if ($this->_var['nav_0_61062400_1491509650']['opennew'] == 1): ?> target="_blank" <?php endif; ?>><?php echo $this->_var['nav_0_61062400_1491509650']['name']; ?></a><?php if (! ($this->_foreach['nav_bottom_list']['iteration'] == $this->_foreach['nav_bottom_list']['total'])): ?>|<?php endif; ?> 
+    <a href="<?php echo $this->_var['nav_0_26578900_1491732835']['url']; ?>" <?php if ($this->_var['nav_0_26578900_1491732835']['opennew'] == 1): ?> target="_blank" <?php endif; ?>><?php echo $this->_var['nav_0_26578900_1491732835']['name']; ?></a><?php if (! ($this->_foreach['nav_bottom_list']['iteration'] == $this->_foreach['nav_bottom_list']['total'])): ?>|<?php endif; ?> 
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
   </p>
     

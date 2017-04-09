@@ -25,58 +25,13 @@
 <!-- #BeginLibraryItem "/library/category_tree_index.lbi" --><!-- #EndLibraryItem -->
 <div class="AreaL">
  <!-- TemplateBeginEditable name="商店公告" -->
-<!-- #BeginLibraryItem "/library/new_articles.lbi" -->
-
-<div id="mallNews"    class="  box_1">
-    <h3><span>站内快讯</span></h3>
-    <div class="NewsList tc  " style="border-top:none">
-        <ul>
-        <!--{foreach from=$new_articles item=article}-->
-        <li>
-      <a href="{$article.url}" title="{$article.title|escape:html}">{$article.short_title|truncate:20:"...":true}</a>
-        </li>
-        <!--{/foreach}-->
-        </ul>
-    </div>
-</div>
-<div  class="blank"></div>
- <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->  
 
 <!-- TemplateBeginEditable name="商店公告下广告" -->
-<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
-
-{insert name='ads' id=$ads_id num=$ads_num}
-
-<div class="blank"></div>
- <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->
 </div>
 <div class="Arear">
 <!-- TemplateBeginEditable name="促销商品区域" -->
-<!-- #BeginLibraryItem "/library/recommend_promotion.lbi" -->
-
-<!-- {if $promotion_goods} -->
-<div class="sale_box clearfix">
-<h3><span>特价商品</span></h3>
-
- 
-      <div class="clearfix">
-         <!--{foreach from=$promotion_goods item=goods name="promotion_foreach"}-->
-        
-           <ul class="clearfix">
-           <li class="goodsimg"><a href="{$goods.url}"><img src="{$goods.thumb}" border="0" alt="{$goods.name|escape:html}" class="B_blue"/></a></li>
-			<li> <p><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_name|escape:html}</a></p>
-           {$lang.promote_price}<font class="f1">{$goods.promote_price}</font></li>
-           </ul>
-
-         <!--{/foreach}-->
-       </div>
- </div>
- 
-<div class="blank" style="height:1px;"></div>
-<!-- {/if} -->
- <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable --> 
 </div> 
   <div class="goodsBox_1">
@@ -84,117 +39,6 @@
 <!-- TemplateEndEditable -->
   
   <!-- TemplateBeginEditable name="全宽行" -->
-<!-- #BeginLibraryItem "/library/recommend_best.lbi" -->
-
-<!-- {if $best_goods} -->
-<!-- {if $cat_rec_sign neq 1} -->
-<div class="xm-box">
-<h4 class="title"><span>精品推荐</span> <a class="more" href="../search.php?intro=best">更多</a></h4>
-<div id="show_best_area" class="clearfix">
-  <!-- {/if} -->
-  <!--{foreach from=$best_goods item=goods}-->
-  <div class="goodsItem">
-       
-           <a href="{$goods.url}"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" class="goodsimg" /></a><br />
-           <p class="f1"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_style_name}</a></p>
-           
-           
- 市场价：<font class="market">{$goods.market_price}</font> <br/>
-      
-           本店价：<font class="f1">
-           <!-- {if $goods.promote_price neq ""} -->
-          {$goods.promote_price}
-          <!-- {else}-->
-          {$goods.shop_price}
-          <!--{/if}-->
-           </font>      
-		    
-        </div>
-  <!--{/foreach}-->
- 
-  <!-- {if $cat_rec_sign neq 1} -->
-  </div>
-
-</div>
-<div class="blank"></div>
-  <!-- {/if} -->
-<!-- {/if} -->
-
- <!-- #EndLibraryItem -->
-<!-- #BeginLibraryItem "/library/recommend_new.lbi" -->
-
-<!-- {if $new_goods} -->
-<!-- {if $cat_rec_sign neq 1} -->
-<div class="xm-box">
-<h4 class="title"><span>新品上架</span> <a class="more" href="../search.php?intro=new">更多</a></h4>
-<div id="show_new_area" class="clearfix">
-  <!-- {/if} -->
-  <!--{foreach from=$new_goods item=goods}-->
-  <div class="goodsItem">
-       
-           <a href="{$goods.url}"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" class="goodsimg" /></a><br />
-           <p class="f1"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_style_name}</a></p>
-           
-           
- 市场价：<font class="market">{$goods.market_price}</font> <br/>
-      
-           本店价：<font class="f1">
-           <!-- {if $goods.promote_price neq ""} -->
-          {$goods.promote_price}
-          <!-- {else}-->
-          {$goods.shop_price}
-          <!--{/if}-->
-           </font>      
-		    
-        </div>
-  <!--{/foreach}-->
- 
-  <!-- {if $cat_rec_sign neq 1} -->
-  </div>
-
-</div>
-<div class="blank"></div>
-  <!-- {/if} -->
-<!-- {/if} -->
-
- <!-- #EndLibraryItem -->
-<!-- #BeginLibraryItem "/library/recommend_hot.lbi" -->
-
-<!-- {if $hot_goods} -->
-<!-- {if $cat_rec_sign neq 1} -->
-<div class="xm-box">
-<h4 class="title"><span>热卖商品</span> <a class="more" href="../search.php?intro=hot">更多</a></h4>
-<div id="show_hot_area" class="clearfix">
-  <!-- {/if} -->
-  <!--{foreach from=$hot_goods item=goods}-->
-  <div class="goodsItem">
-       
-           <a href="{$goods.url}"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" class="goodsimg" /></a><br />
-           <p class="f1"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.short_style_name}</a></p>
-           
-           
- 市场价：<font class="market">{$goods.market_price}</font> <br/>
-      
-           本店价：<font class="f1">
-           <!-- {if $goods.promote_price neq ""} -->
-          {$goods.promote_price}
-          <!-- {else}-->
-          {$goods.shop_price}
-          <!--{/if}-->
-           </font>      
-		    
-        </div>
-  <!--{/foreach}-->
- 
-  <!-- {if $cat_rec_sign neq 1} -->
-  </div>
-
-</div>
-<div class="blank"></div>
-  <!-- {/if} -->
-<!-- {/if} -->
-
- <!-- #EndLibraryItem -->
 <!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
 
 
@@ -314,5 +158,23 @@
  
 
 <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+
+<div id="teMaiRightNavWrap">
+  <ul id="teMaiRightNav">
+    <li class="youhui" id="coupon"><a href="user.php?act=bonus" target="_blank" style="color:#FFF">优惠券</a></li>
+    <li class="car" id="rightcar">购物车
+      <div class="box box01"><b>购物车有0件商品！</b><br>
+        <a href="flow.php" target="_blank">马上去结算&gt;&gt;</a></div>
+    </li>
+    <li class="daog">客服 <a <="" span=""> </a><a target="_blank" href="http://p.qiao.baidu.com/im/index?siteid=6171872&amp;ucid=8105073&amp;cp=&amp;cr=&amp;cw=" class="loginAliChat"><img src="themes/yihaodian/images/news/temai_daogou.png" width="198" height="95"></a> </li>
+    <li class="rexian">电话 <img src="themes/yihaodian/images/news/temai_right_bg0411.png" width="231" height="112px"> </li>
+    <li class="saom"> <a>二维码
+      <div class="smBox"> <img src="themes/yihaodian/images/news/jhshaoma.png" width="120" height="120">
+        <p>关注领取午夜福利</p>
+      </div>
+      </a> </li>
+    <li class="toTop"><a href="javascript:scrollTo(0,0);">Top</a></li>
+  </ul>
+</div>
 </body>
 </html>

@@ -929,6 +929,77 @@ ul.shoppingMes li.welcomeVjia .loginvjia {
 	height: 40px;
 	padding-left: 216px;
 }
+
+
+/* 右边悬浮导航 */
+#teMaiRightNavWrap {
+	position: fixed;
+	top:0; 
+	right: 0;
+	width:4px;
+	height: 100%;
+	z-index:99999;
+    background: #ff3c3c;
+}
+#teMaiRightNav { width: 45px ;position:absolute; top:30%; left: -42px; z-index: 2;}
+#teMaiRightNav li { position:relative; height:22px; padding-top:30px;margin-bottom: 10px;
+    text-align:center; color:#fff;background:#ff3c3c url(images/news/temai_right421.png) no-repeat ;
+    border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;
+}
+#teMaiRightNav .youhui       {background-position:2px -6px}
+#teMaiRightNav .car        {background-position: 2px  -65px}
+#teMaiRightNav .daog        {background-position: 2px  -127px}
+#teMaiRightNav .rexian          {background-position: 2px  -185px}
+#teMaiRightNav .saom           {background-position: 2px  -244px}
+#teMaiRightNav .toTop  {height:auto;padding:0;background-position: 2px  -308px}
+#teMaiRightNav .toTop a{display: block;color: #ccc;height: 52px; line-height:70px;}
+#teMaiRightNav .toTop:hover a{color: #fff}
+#teMaiRightNav li .box { display:none; position:absolute; top:0; right:45px; line-height:25px; color:#2a2929;}
+#teMaiRightNav li:hover .box { display:block; }
+
+#teMaiRightNav li:hover { background-position-x:2px;background-color: #7b0000 ; color:white; }
+
+#teMaiRightNav .wo .box { width:230px; padding-top:27px; height:80px; background:url(images/news/temai_right_bg01.png) no-repeat 0 0;}
+#teMaiRightNav .wo:hover { background-position: -45px 0;}
+
+#teMaiRightNav .youhui .box { width:250px; height:190px; background:url(images/news/temai_right_bg025.png) no-repeat 0 0; }
+#teMaiRightNav .youhui .box .yh-box{ width:240px; height:95px; margin:7px 0 0 7px; overflow:hidden; overflow-x:hidden; overflow-y:auto;}
+#teMaiRightNav .youhui .box .yh-box .bn1{ width:146px; height:93px; float:left; position:relative; background-color:#fff; margin-bottom:2px;}
+#teMaiRightNav .youhui .box .yh-box .bn1 dl{ height:50px; zoom:1; margin-top:8px; }
+#teMaiRightNav .youhui .box .yh-box .bn1 dl:after { content:"."; display:block; height:0; clear:both; visibility:hidden; font-size:0;}
+#teMaiRightNav .youhui .box .yh-box .bn1 dl dt{ width:50px; height:70px; float:left; text-align:center; font:normal bold 24px/70px 'microsoft yahei'; color:#fc2eb5;}
+#teMaiRightNav .youhui .box .yh-box .bn1 dl dd{ width:92px; float:left; font:normal normal 20px/28px 'microsoft yahei'; color:#44c0cb; margin-top:10px;}
+#teMaiRightNav .youhui .box .yh-box .bn1 dl dd span{ display:block; font-size:12px;}
+#teMaiRightNav .youhui .box .yh-box .bn1 p{ display:block; color:#999;  position:absolute; bottom:5px; left:6px;}
+#teMaiRightNav .youhui .box .yh-box .bn2{ width:64px; height:77px; float:left;padding-top:16px; background-color:#7b0000; text-align:center; margin-bottom:2px;}
+#teMaiRightNav .youhui .box .yh-box .bn2 p{ font:normal normal 12px/18px 'ç€¹å¬©ç¶‹'; color:#fff;}
+#teMaiRightNav .youhui .box02{padding-top:27px;}
+
+#teMaiRightNav .car .box { width:248px; padding-top:27px; height:83px; background:url(images/news/temai_right_bg02.png) no-repeat 0 0; }
+#teMaiRightNav .car .box02 { background:url(images/news/temai_right_bg03.png) no-repeat 0 0;}
+
+#teMaiRightNav .souc { cursor:pointer;}
+#teMaiRightNav .souc .box { width:231px; padding-top:27px; height:83px; background:url(images/news/temai_right_bg04.png) no-repeat 0 0; }
+
+
+
+#teMaiRightNav .daog img { display:none; position:absolute; right:45px; top:0;}
+#teMaiRightNav .daog:hover img { display:block; }
+
+#teMaiRightNav .rexian img {display:none; position:absolute; right:45px; top:0;}
+#teMaiRightNav .rexian:hover img{ display:block;}
+
+#teMaiRightNav .saom { padding:0; height:52px;}
+#teMaiRightNav .saom a { display:block; height:22px; padding-top:32px; color:#ccc;}
+#teMaiRightNav .saom a:hover { color:white;}
+#teMaiRightNav .saom .smBox { display:none; position: absolute; top: -45px; right:45px; padding: 10px 20px 0; width: 126px;  height: 151px;color: #AAABAB;background: url(images/news/header_shaoma01.png) no-repeat scroll 0px 0px transparent; text-align: center; color:#333;}
+#teMaiRightNav .saom:hover .smBox { display:block; } 
+
+#goTop { display:block; width:45px; position:relative; top:12%; padding:18px 0; height:26px; text-align:center;  color:#999; }
+#goTop:hover { color:white; background:#f0189d;}
+
+
+
 /*当前位置*/
 #ur_here {
 	height: 24px;
@@ -1053,7 +1124,8 @@ ul.shoppingMes li.welcomeVjia .loginvjia {
 	display: block;
 	height: 30px;
 	line-height: 30px;
-	color: #E60012;
+	color: #333;
+	/* color: #E60012; */
 	font-weight: bold;
 	text-decoration: none;	
     margin-right: 10px;
@@ -1061,6 +1133,12 @@ ul.shoppingMes li.welcomeVjia .loginvjia {
     /* width: 90px; */
     min-width: 70px;
 }
+
+#category_tree dd .over_2:hover {
+	color: #E60012;
+	text-decoration: underline;
+}
+
 .mainCategory {
 	width: 214px;
 	height: 40px;
@@ -2816,6 +2894,9 @@ s, strike, del {
 	height: 90px;
 }
 .hd_top_manu .hd_menu_hover .hd_weixin_show {
+	display: block;
+}
+.hd_top_manu .hd_menu_hover .hd_mobile_show {
 	display: block;
 }
 .hd_top_manu li.hd_menu_hover a.hd_menu {

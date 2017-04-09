@@ -66,7 +66,7 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
     </div>
     <div class="hd_top_manu clearfix">
       <ul class="clearfix">
-        <li class="hd_menu_tit hd_my_order" id="glHdMyYhd" onMouseOver= "this.className='hd_menu_tit hd_my_order hd_menu_hover'" onMouseOut= "this.className='hd_menu_tit hd_my_order'"> <a class="hd_menu" target="_blank" href="user.php"><s></s>我的1号店</a>
+        <li class="hd_menu_tit hd_my_order" id="glHdMyYhd" onMouseOver= "this.className='hd_menu_tit hd_my_order hd_menu_hover'" onMouseOut= "this.className='hd_menu_tit hd_my_order'"> <a class="hd_menu" target="_blank" href="user.php"><s></s>我的火云岛</a>
           <div class="hd_menu_list">
             <ul>
               <li><a href="user.php?act=order_list" target="_blank">我的订单</a></li>
@@ -77,7 +77,7 @@ echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
             </ul>
           </div>
         </li>
-        <li class="hd_menu_tit" id="glKeHuDuan" onMouseOver= "this.className='hd_menu_tit hd_menu_hover hd_mobile_hover'" onMouseOut= "this.className='hd_menu_tit'"> <a href="#" class="hd_menu"><i class="hd_mobile_icon"></i>手机1号店</a>
+        <li class="hd_menu_tit" id="glKeHuDuan" onMouseOver= "this.className='hd_menu_tit hd_menu_hover hd_mobile_hover'" onMouseOut= "this.className='hd_menu_tit'"> <a href="#" class="hd_menu"><i class="hd_mobile_icon"></i>手机火云岛</a>
           <div class="hd_mobile_show">
             <p class="hd_mobile_tips">扫描二维码下载客户端</p>
             <div class="hd_mobile_list clearfix"> <i></i>

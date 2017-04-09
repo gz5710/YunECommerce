@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:54:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/index.dwt";i:1;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_header.lbi";i:2;s:65:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/index_ad.lbi";i:3;s:76:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/category_tree_index.lbi";i:4;s:66:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/cat_goods.lbi";i:5;s:61:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/help.lbi";i:6;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_footer.lbi";}s:7:"expires";i:1491738656;s:8:"maketime";i:1491735056;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:54:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/index.dwt";i:1;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_header.lbi";i:2;s:65:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/index_ad.lbi";i:3;s:76:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/category_tree_index.lbi";i:4;s:66:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/cat_goods.lbi";i:5;s:61:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/help.lbi";i:6;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_footer.lbi";}s:7:"expires";i:1491736796;s:8:"maketime";i:1491733196;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -189,7 +189,6 @@ function show_div(obj){
  </div> 
 </div>
 </div>
- 
 <style type="text/css"> 
 .container, .container *{margin:0; padding:0;}
 .container{width:100%; height:413px; overflow:hidden;position:relative;}
@@ -503,8 +502,7 @@ window.onload=function(){
     </div>
      
       </dl>
-</div>
-<div class="AreaL">
+</div><div class="AreaL">
  
   
 </div>

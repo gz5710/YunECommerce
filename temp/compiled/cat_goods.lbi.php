@@ -5,22 +5,22 @@
 <div id="show_hot_area" class="clearfix">
 
  
-      <?php $_from = $this->_var['cat_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_59933800_1491509650');if (count($_from)):
-    foreach ($_from AS $this->_var['goods_0_59933800_1491509650']):
+      <?php $_from = $this->_var['cat_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods');if (count($_from)):
+    foreach ($_from AS $this->_var['goods']):
 ?>
       <div class="goodsItem">
        
-           <a href="<?php echo $this->_var['goods_0_59933800_1491509650']['url']; ?>"><img src="<?php echo $this->_var['goods_0_59933800_1491509650']['thumb']; ?>" alt="<?php echo htmlspecialchars($this->_var['goods_0_59933800_1491509650']['name']); ?>" class="goodsimg" /></a><br />
-           <p class="f1"><a href="<?php echo $this->_var['goods_0_59933800_1491509650']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['goods_0_59933800_1491509650']['name']); ?>"><?php echo $this->_var['goods_0_59933800_1491509650']['short_style_name']; ?></a></p>
+           <a href="<?php echo $this->_var['goods']['url']; ?>"><img src="<?php echo $this->_var['goods']['thumb']; ?>" alt="<?php echo htmlspecialchars($this->_var['goods']['name']); ?>" class="goodsimg" /></a><br />
+           <p class="f1"><a href="<?php echo $this->_var['goods']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['goods']['name']); ?>"><?php echo $this->_var['goods']['short_style_name']; ?></a></p>
            
            
- 市场价：<font class="market"><?php echo $this->_var['goods_0_59933800_1491509650']['market_price']; ?></font> <br/>
+ 市场价：<font class="market"><?php echo $this->_var['goods']['market_price']; ?></font> <br/>
       
            本店价：<font class="f1">
-           <?php if ($this->_var['goods_0_59933800_1491509650']['promote_price'] != ""): ?>
-          <?php echo $this->_var['goods_0_59933800_1491509650']['promote_price']; ?>
+           <?php if ($this->_var['goods']['promote_price'] != ""): ?>
+          <?php echo $this->_var['goods']['promote_price']; ?>
           <?php else: ?>
-          <?php echo $this->_var['goods_0_59933800_1491509650']['shop_price']; ?>
+          <?php echo $this->_var['goods']['shop_price']; ?>
           <?php endif; ?>
            </font>      
 		    

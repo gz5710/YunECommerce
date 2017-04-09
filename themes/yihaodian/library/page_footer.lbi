@@ -1,25 +1,5 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<div class="ft_code_wrap clearfix" id="footerQRcode">
-  <div class="ft_mobile_code clearfix"> 
-  <img width="90" height="90" src="images/iphone.jpg" alt="EC模板堂客户端二维码">
-    <dl>
-      <dt>EC模板堂客户端</dt>
-      <dd>用着很方便！</dd>
-      <dd> 
-      <a href="https://itunes.apple.com/cn/app/ecshop-mo-ban-tang/id773051406?mt=8" target="_blank" class="ft_iphone" rel="nofollow"><i></i>iPhone</a> 
-      <a href="https://itunes.apple.com/cn/app/ecshop-mo-ban-tanghd/id940333287?mt=8" target="_blank" class="ft_ipad" rel="nofollow"><i></i>iPad</a> 
-      <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.ecmoban.android.moban" target="_blank" class="ft_android" rel="nofollow"><i></i>Android</a> 
-      </dd>
-    </dl>
-  </div>
-  <div class="ft_mobile_code clearfix"> 
-  <img width="90" height="90" src="images/suspension-code.jpg" alt="EC模板堂客户端二维码">
-    <dl>
-      <dt>EC模板堂官方微信</dt>
-      <dd>万千优惠资讯抢先收到，互动、查物流一步搞定！</dd>
-    </dl>
-  </div>
-</div>
+
 <div id="footer">
   <div class="ft_footer_service"> 
   <a href="#" target="_blank"><span class="s1"></span>全国包邮</a> 
