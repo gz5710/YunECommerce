@@ -1,15 +1,15 @@
-<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:54:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/index.dwt";i:1;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_header.lbi";i:2;s:65:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/index_ad.lbi";i:3;s:76:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/category_tree_index.lbi";i:4;s:66:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/cat_goods.lbi";i:5;s:61:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/help.lbi";i:6;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_footer.lbi";}s:7:"expires";i:1491738656;s:8:"maketime";i:1491735056;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:54:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/index.dwt";i:1;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_header.lbi";i:2;s:65:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/index_ad.lbi";i:3;s:76:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/category_tree_index.lbi";i:4;s:66:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/cat_goods.lbi";i:5;s:61:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/help.lbi";i:6;s:68:"C:/xampp/htdocs/ecshopphp55/themes/yihaodian/library/page_footer.lbi";}s:7:"expires";i:1491943421;s:8:"maketime";i:1491939821;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Keywords" content="火云岛商城" />
-<meta name="Description" content="火云岛商城" />
-<title>火云岛商城 - Powered by ECShop</title>
+<meta name="Keywords" content="ECSHOP演示站" />
+<meta name="Description" content="ECSHOP演示站" />
+<title>ECSHOP演示站 - Powered by ECShop</title>
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link href="themes/yihaodian/style.css" rel="stylesheet" type="text/css" />
-<link rel="alternate" type="application/rss+xml" title="RSS|火云岛商城 - Powered by ECShop" href="feed.php" />
+<link rel="alternate" type="application/rss+xml" title="RSS|ECSHOP演示站 - Powered by ECShop" href="feed.php" />
 <script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/index.js"></script></head>
 <body class="index_page" style="min-width:1200px;">
 <link href="themes/ecmoban_suning/qq/images/qq.css" rel="stylesheet" type="text/css" />
@@ -95,17 +95,16 @@ function show_div(obj){
         </li>
          
                 <li class="hd_menu_tit"> <a target="_blank" href="flow.php" >查看购物车</a> </li>
-                <li class="hd_menu_tit"> <a target="_blank" href="javascript:AddFavorite(document.title, window.location)" >收藏本站</a> </li>
                 <li class="hd_menu_tit"> <a target="_blank" href="pick_out.php" >选购中心</a> </li>
                 <li class="hd_menu_tit"> <a target="_blank" href="tag_cloud.php" >标签云</a> </li>
                 <li class="hd_menu_tit"> <a target="_blank" href="quotation.php" >报价单</a> </li>
          
               </ul>
-      <span class="hd_follow_us">关注我们：</span> <a target="_blank" id="weibo" href="http://weibo.com/ECMBT" class="hd_sina_weibo" title="去关注火云岛的新浪微博">关注火云岛新浪微博</a> <a class="hd_weixin hd_menu_tit" id="glWeiXin" title="关注火云岛微信" href="#" target="_blank" onMouseOver= "this.className='hd_weixin hd_menu_tit hd_menu_hover'" onMouseOut= "this.className='hd_weixin hd_menu_tit'">
+      <span class="hd_follow_us">关注我们：</span> <a target="_blank" id="weibo" href="http://weibo.com/ECMBT" class="hd_sina_weibo" title="去关注ECSHOP的新浪微博">关注ECSHOP新浪微博</a> <a class="hd_weixin hd_menu_tit" id="glWeiXin" title="关注ECSHOP微信" href="#" target="_blank" onMouseOver= "this.className='hd_weixin hd_menu_tit hd_menu_hover'" onMouseOut= "this.className='hd_weixin hd_menu_tit'">
       <div class="hd_weixin_show"> <i></i>
         <p> 扫描二维码<br>
-          关注火云岛微信 </p>
-        <img src="themes/yihaodian/images/suspension-code.png" alt="扫描二维码&lt;br /&gt;关注火云岛微信"> </div>
+          关注ECSHOP微信 </p>
+        <img src="themes/yihaodian/images/suspension-code.png" alt="扫描二维码&lt;br /&gt;关注ECSHOP微信"> </div>
       </a> </div>
   </div>
 </div>
@@ -182,19 +181,23 @@ function show_div(obj){
  
    <a href="activity.php"  >优惠活动</a>
  
+   <a href="snatch.php"  >夺宝奇兵</a>
+ 
    <a href="auction.php"  >拍卖活动</a>
+ 
+   <a href="exchange.php"  >积分商城</a>
  
    <a href="message.php"  >留言板</a>
  
+   <a href="http://bbs.ecshop.com/" target="_blank"  >EC论坛</a>
+ 
  </div> 
 </div>
-</div>
- 
-<style type="text/css"> 
+</div><style type="text/css"> 
 .container, .container *{margin:0; padding:0;}
 .container{width:100%; height:413px; overflow:hidden;position:relative;}
-.slider{position:absolute; width:100%; height:413px;}
-.slider li , .slider li a{list-style:none; float:left;width:100%; height:413px;}
+.slider{position:absolute; width:400%; height:413px;}
+.slider li , .slider li a{list-style:none; float:left;width:100%; height:413px; width:25%;}
 .slider img{width:100%; height:413px; display:block;}
 .slider2{width:2000px;}
 .slider2 li{float:left;}
@@ -229,11 +232,11 @@ function show_div(obj){
 </style>
 <div class="container" id="idTransformView">
   <ul class="slider" id="idSlider">
-        <li style="background:url(data/afficheimg/20150420fqsfar.jpg) center 0 no-repeat; position:relative;"><a href="http://www.ecmoban.com" target="_blank"></a></li>
-            <li style="background:url(data/afficheimg/20141021aziwud.png) center 0 no-repeat; position:relative;"><a href="http://ectouch.cn/" target="_blank"></a></li>
-            <li style="background:url(data/afficheimg/20141022dacwiw.png) center 0 no-repeat; position:relative;"><a href="http://www.ecmoban.com/djd/" target="_blank"></a></li>
-            <li style="background:url(data/afficheimg/20141022vbuvgk.png) center 0 no-repeat; position:relative;"><a href="http://www.ecmoban.com/shangchuang/" target="_blank"></a></li>
-            <li style="background:url(data/afficheimg/20141022nvtssl.png) center 0 no-repeat; position:relative;"><a href="http://www.ecmoban.com/weixin/ " target="_blank"></a></li>
+        <li style="background:url(data/afficheimg/20150420fqsfar.jpg) center 0 no-repeat; background-size:100%;"><a href="http://www.ecmoban.com" target="_blank"></a></li>
+            <li style="background:url(data/afficheimg/20141021aziwud.png) center 0 no-repeat; background-size:100%;"><a href="http://ectouch.cn/" target="_blank"></a></li>
+            <li style="background:url(data/afficheimg/20141022dacwiw.png) center 0 no-repeat; background-size:100%;"><a href="http://www.ecmoban.com/djd/" target="_blank"></a></li>
+            <li style="background:url(data/afficheimg/20141022vbuvgk.png) center 0 no-repeat; background-size:100%;"><a href="http://www.ecmoban.com/shangchuang/" target="_blank"></a></li>
+            <li style="background:url(data/afficheimg/20141022nvtssl.png) center 0 no-repeat; background-size:100%;"><a href="http://www.ecmoban.com/weixin/ " target="_blank"></a></li>
       
   </ul>
   <ul class="num" id="idNum">
@@ -302,7 +305,7 @@ TransformView.prototype = {
   //设置默认属性
   SetOptions: function(options) {
 	this.options = {//默认值
-		Up:			true,//是否向上(否则向左)
+		Up:			false,//是否向上(否则向左)
 		Step:		5,//滑动变化率
 		Time:		10,//滑动延时
 		Auto:		true,//是否自动转换
@@ -356,7 +359,8 @@ window.onload=function(){
 	
 	var objs = $("idNum").getElementsByTagName("li");
 	
-	var tv = new TransformView("idTransformView", "idSlider", 413, 5, {
+	
+	var tv = new TransformView("idTransformView", "idSlider", 1903, 5, {
 		onStart : function(){ Each(objs, function(o, i){o.className = tv.Index == i ? "on" : "";}) }//按钮样式
 	});
 	
@@ -503,8 +507,7 @@ window.onload=function(){
     </div>
      
       </dl>
-</div>
-<div class="AreaL">
+</div><div class="AreaL">
  
   
 </div>
@@ -516,183 +519,27 @@ window.onload=function(){
   
   
 <div class="xm-box">
-<h4 class="title"><span>手机配件</span> <a class="more" href="category.php?id=6">更多</a></h4>
+<h4 class="title"><span></span> <a class="more" href="">更多</a></h4>
 <div id="show_hot_area" class="clearfix">
  
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=7"><img src="images/200905/thumb_img/7_thumb_G_1241422785492.jpg" alt="诺基亚N85原装立体声耳机HS-82" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=7" title="诺基亚N85原装立体声耳机HS-82"></a></p>
-           
-           
- 市场价：<font class="market">￥120元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥100元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=5"><img src="images/200905/thumb_img/5_thumb_G_1241422518886.jpg" alt="索爱原装M2卡读卡器" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=5" title="索爱原装M2卡读卡器"></a></p>
-           
-           
- 市场价：<font class="market">￥24元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥20元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=3"><img src="images/200905/thumb_img/3_thumb_G_1241422082679.jpg" alt="诺基亚原装5800耳机" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=3" title="诺基亚原装5800耳机"></a></p>
-           
-           
- 市场价：<font class="market">￥82元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥68元                     </font>      
-		    
-        </div>
           </div>
  
  
 </div>
 <div class="blank"></div>
 <div class="xm-box">
-<h4 class="title"><span>充值卡</span> <a class="more" href="category.php?id=12">更多</a></h4>
+<h4 class="title"><span></span> <a class="more" href="">更多</a></h4>
 <div id="show_hot_area" class="clearfix">
  
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=30"><img src="images/200905/thumb_img/30_thumb_G_1241973114800.jpg" alt="移动20元充值卡" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=30" title="移动20元充值卡"></a></p>
-           
-           
- 市场价：<font class="market">￥21元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥18元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=29"><img src="images/200905/thumb_img/29_thumb_G_1241973022239.jpg" alt="移动100元充值卡" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=29" title="移动100元充值卡"></a></p>
-           
-           
- 市场价：<font class="market">￥0元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥90元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=28"><img src="images/200905/thumb_img/28_thumb_G_1241972976986.jpg" alt="联通50元充值卡" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=28" title="联通50元充值卡"></a></p>
-           
-           
- 市场价：<font class="market">￥50元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥45元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=27"><img src="images/200905/thumb_img/27_thumb_G_1241972894068.jpg" alt="联通100元充值卡" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=27" title="联通100元充值卡"></a></p>
-           
-           
- 市场价：<font class="market">￥100元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥95元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=26"><img src="images/200905/thumb_img/26_thumb_G_1241972789393.jpg" alt="小灵通/固话20元充值卡" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=26" title="小灵通/固话20元充值卡"></a></p>
-           
-           
- 市场价：<font class="market">￥23元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥19元                     </font>      
-		    
-        </div>
           </div>
  
  
 </div>
 <div class="blank"></div>
 <div class="xm-box">
-<h4 class="title"><span>手机类型</span> <a class="more" href="category.php?id=1">更多</a></h4>
+<h4 class="title"><span></span> <a class="more" href="">更多</a></h4>
 <div id="show_hot_area" class="clearfix">
  
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=32"><img src="images/200905/thumb_img/32_thumb_G_1242110760196.jpg" alt="诺基亚N85" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=32" title="诺基亚N85"></a></p>
-           
-           
- 市场价：<font class="market">￥3612元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥3010元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=24"><img src="images/200905/thumb_img/24_thumb_G_1241971981429.jpg" alt="P806" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=24" title="P806"></a></p>
-           
-           
- 市场价：<font class="market">￥2400元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥2000元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=23"><img src="images/200905/thumb_img/23_thumb_G_1241971556399.jpg" alt="诺基亚N96" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=23" title="诺基亚N96"></a></p>
-           
-           
- 市场价：<font class="market">￥4440元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥3700元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=22"><img src="images/200905/thumb_img/22_thumb_G_1241971076803.jpg" alt="多普达Touch HD" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=22" title="多普达Touch HD"></a></p>
-           
-           
- 市场价：<font class="market">￥7199元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥5999元                     </font>      
-		    
-        </div>
-            <div class="goodsItem">
-       
-           <a href="goods.php?id=21"><img src="images/200905/thumb_img/21_thumb_G_1242109298150.jpg" alt="金立 A30" class="goodsimg" /></a><br />
-           <p class="f1"><a href="goods.php?id=21" title="金立 A30"></a></p>
-           
-           
- 市场价：<font class="market">￥2400元</font> <br/>
-      
-           本店价：<font class="f1">
-                     ￥2000元                     </font>      
-		    
-        </div>
           </div>
  
  
@@ -779,10 +626,8 @@ window.onload=function(){
                 <a href="http://www.maifou.net/" target="_blank" title="买否网">买否网</a>|        <a href="http://www.wdwd.com/" target="_blank" title="免费开独立网店">免费开独立网店</a>        </p>
   <div class="text" style="line-height:20px;">
   <center>
- &copy; 2005-2017 火云岛 版权所有，并保留所有权利。<br />
-          E-mail: bruce.gong.tmax@gmail.com<br />
-              <a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=654621219&amp;Site=火云岛&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:654621219:4" height="16" border="0" alt="QQ" /> 654621219</a>
-                                                                                <br />
+ &copy; 2005-2017 ECSHOP 版权所有，并保留所有权利。<br />
+                                                                                     <br />
     554fcae493e564ee0dc75bdf2ebf94caquery_info|a:1:{s:4:"name";s:10:"query_info";}554fcae493e564ee0dc75bdf2ebf94ca<br />
   </center>
  </div>
@@ -816,8 +661,7 @@ window.onload=function(){
   
   
   
-                <li><a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=654621219&amp;Site=火云岛&amp;Menu=yes" target="_blank"><img src="http://wpa.qq.com/pa?p=1:654621219:4" height="16" border="0" alt="QQ" /> 654621219</a> </li>
-                                                                               
+                                                                                  
     
   
   
@@ -905,7 +749,6 @@ document.getElementById("divMenu").style.display = "block";
 document.getElementById("divOnline").style.display = "none";
 }
 </script>
- 
 <div id="teMaiRightNavWrap">
   <ul id="teMaiRightNav">
     <li class="youhui" id="coupon"><a href="user.php?act=bonus" target="_blank" style="color:#FFF">优惠券</a></li>
