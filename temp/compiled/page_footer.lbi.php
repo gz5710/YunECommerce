@@ -9,38 +9,18 @@
   <?php if ($this->_var['navigator_list']['bottom']): ?>
    
   <p class="ft_footer_link"> 
-  <?php $_from = $this->_var['navigator_list']['bottom']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav_0_84053700_1491939821');$this->_foreach['nav_bottom_list'] = array('total' => count($_from), 'iteration' => 0);
+  <?php $_from = $this->_var['navigator_list']['bottom']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'nav_0_17256000_1492251294');$this->_foreach['nav_bottom_list'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['nav_bottom_list']['total'] > 0):
-    foreach ($_from AS $this->_var['nav_0_84053700_1491939821']):
+    foreach ($_from AS $this->_var['nav_0_17256000_1492251294']):
         $this->_foreach['nav_bottom_list']['iteration']++;
 ?>
   
-    <a href="<?php echo $this->_var['nav_0_84053700_1491939821']['url']; ?>" <?php if ($this->_var['nav_0_84053700_1491939821']['opennew'] == 1): ?> target="_blank" <?php endif; ?>><?php echo $this->_var['nav_0_84053700_1491939821']['name']; ?></a><?php if (! ($this->_foreach['nav_bottom_list']['iteration'] == $this->_foreach['nav_bottom_list']['total'])): ?>|<?php endif; ?> 
+    <a href="<?php echo $this->_var['nav_0_17256000_1492251294']['url']; ?>" <?php if ($this->_var['nav_0_17256000_1492251294']['opennew'] == 1): ?> target="_blank" <?php endif; ?>><?php echo $this->_var['nav_0_17256000_1492251294']['name']; ?></a><?php if (! ($this->_foreach['nav_bottom_list']['iteration'] == $this->_foreach['nav_bottom_list']['total'])): ?>|<?php endif; ?> 
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
   </p>
     
   <?php endif; ?>
   
-  
-<?php if ($this->_var['img_links'] || $this->_var['txt_links']): ?>
-<p class="ft_footer_link">
-    <?php $_from = $this->_var['img_links']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'link');if (count($_from)):
-    foreach ($_from AS $this->_var['link']):
-?>
-    <a href="<?php echo $this->_var['link']['url']; ?>" target="_blank" title="<?php echo $this->_var['link']['name']; ?>"><?php echo $this->_var['link']['name']; ?></a>|
-    <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
-    <?php if ($this->_var['txt_links']): ?>
-    <?php $_from = $this->_var['txt_links']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'link');$this->_foreach['txt_links'] = array('total' => count($_from), 'iteration' => 0);
-if ($this->_foreach['txt_links']['total'] > 0):
-    foreach ($_from AS $this->_var['link']):
-        $this->_foreach['txt_links']['iteration']++;
-?>
-    <a href="<?php echo $this->_var['link']['url']; ?>" target="_blank" title="<?php echo $this->_var['link']['name']; ?>"><?php echo $this->_var['link']['name']; ?></a><?php if (! ($this->_foreach['txt_links']['iteration'] == $this->_foreach['txt_links']['total'])): ?>|<?php endif; ?>
-    <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
-    <?php endif; ?>
-</p>
-<?php endif; ?>
-
 
   <div class="text" style="line-height:20px;">
   <center>
@@ -98,11 +78,6 @@ $k = array (
 echo $this->_echash . $k['name'] . '|' . serialize($k) . $this->_echash;
 ?><br />
   </center>
- </div>
-     <div class="text" style="height:20px; margin-top:5px;">
-  <center>  <a href=" http://www.ecmoban.com" target="_blank"><img src="themes/yihaodian/images/ecmoban.gif" alt="ECShop模板"></a>
-  </center>
-  </div>
  
 <small class="ft_pic_link" id="footerbanner2LazyLoad">
 <a href="#"><img src="themes/yihaodian/images/foot_img1.jpg"></a>|

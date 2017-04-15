@@ -38,6 +38,7 @@
   <!-- TemplateBeginEditable name="首页右侧区域" -->
 <!-- TemplateEndEditable -->
   
+  <!--{$idx = 1}-->
   <!-- TemplateBeginEditable name="全宽行" -->
 <!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
 

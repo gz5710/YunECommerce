@@ -1,3 +1,6 @@
+
+<link href="themes/yihaodian/mystyle.css" rel="stylesheet" type="text/css">
+
 <script type="text/javascript">
           //初始化主菜单
             function sw_nav2(obj,tag)
@@ -8,6 +11,9 @@
                 if(tag==1)
                 {
                     DisSub2.style.display = "block";
+					var top = -46 * (obj - 1);
+					DisSub2.style.top = top + "px";
+					console.log(DisSub2.style.top);
 					HandleLI2.className="current";
                 }
                 else
@@ -32,12 +38,26 @@ if ($this->_foreach['no']['total'] > 0):
     <div  class="dt" <?php if ($this->_foreach['no']['iteration'] == 9): ?>style="border-bottom:none;"<?php endif; ?> onMouseOver="sw_nav2(<?php echo $this->_foreach['no']['iteration']; ?>,1);" onMouseOut="sw_nav2(<?php echo $this->_foreach['no']['iteration']; ?>,0);" >
       <div id="HandleLI2_<?php echo $this->_foreach['no']['iteration']; ?>"><a class="a <?php if (($this->_foreach['no']['iteration'] - 1) % 2 == 0): ?><?php else: ?>t<?php endif; ?>" href="<?php echo $this->_var['cat']['url']; ?>"><?php echo htmlspecialchars($this->_var['cat']['name']); ?><i></i></a></div>
       <dd id=DisSub2_<?php echo $this->_foreach['no']['iteration']; ?> style="display:none"> 
+	  
+	    <p class="submenu-detail-title"><?php echo htmlspecialchars($this->_var['cat']['name']); ?></p>
         <?php $_from = $this->_var['cat']['cat_id']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'child');if (count($_from)):
     foreach ($_from AS $this->_var['child']):
 ?> 
-        <a class="over_2" href="<?php echo $this->_var['child']['url']; ?>"><?php echo htmlspecialchars($this->_var['child']['name']); ?></a>
-		  
+        <a class="over_2" href="<?php echo $this->_var['child']['url']; ?>"><?php echo htmlspecialchars($this->_var['child']['name']); ?></a>		  
         <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?> 
+		
+		<br/>
+	    <p class="submenu-detail-title">相关品牌</p>
+        <?php $_from = $this->_var['brand_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'brand');if (count($_from)):
+    foreach ($_from AS $this->_var['brand']):
+?> 
+        <a class="over_2" href="<?php echo $this->_var['brand']['url']; ?>"><?php echo htmlspecialchars($this->_var['brand']['brand_name']); ?></a>		  
+        <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?> 
+			  
+		<br/>
+	    <p class="submenu-detail-title">热卖单品</p>
+        
+		
       </dd>
     </div>
     <?php endif; ?> 

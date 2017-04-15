@@ -1,4 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<link href="themes/yihaodian/mystyle.css" rel="stylesheet" type="text/css">
+
 <script type="text/javascript">
           //初始化主菜单
             function sw_nav2(obj,tag)
@@ -9,6 +12,9 @@
                 if(tag==1)
                 {
                     DisSub2.style.display = "block";
+					var top = -46 * (obj - 1);
+					DisSub2.style.top = top + "px";
+					console.log(DisSub2.style.top);
 					HandleLI2.className="current";
                 }
                 else
@@ -29,10 +35,22 @@
     <div  class="dt" {if $smarty.foreach.no.iteration eq 9}style="border-bottom:none;"{/if} onMouseOver="sw_nav2({$smarty.foreach.no.iteration},1);" onMouseOut="sw_nav2({$smarty.foreach.no.iteration},0);" >
       <div id="HandleLI2_{$smarty.foreach.no.iteration}"><a class="a {if $smarty.foreach.no.index mod 2 eq 0}{else}t{/if}" href="{$cat.url}">{$cat.name|escape:html}<i></i></a></div>
       <dd id=DisSub2_{$smarty.foreach.no.iteration} style="display:none"> 
+	  
+	    <p class="submenu-detail-title">{$cat.name|escape:html}</p>
         <!--{foreach from=$cat.cat_id item=child}--> 
-        <a class="over_2" href="{$child.url}">{$child.name|escape:html}</a>
-		  
+        <a class="over_2" href="{$child.url}">{$child.name|escape:html}</a>		  
         <!--{/foreach}--> 
+		
+		<br/>
+	    <p class="submenu-detail-title">相关品牌</p>
+        <!--{foreach from=$brand_list item=brand}--> 
+        <a class="over_2" href="{$brand.url}">{$brand.brand_name|escape:html}</a>		  
+        <!--{/foreach}--> 
+			  
+		<br/>
+	    <p class="submenu-detail-title">热卖单品</p>
+        
+		
       </dd>
     </div>
     <!-- {/if} --> 

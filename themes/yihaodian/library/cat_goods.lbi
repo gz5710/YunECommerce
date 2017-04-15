@@ -2,7 +2,7 @@
 
 
 <div class="xm-box">
-<h4 class="title"><span>{$goods_cat.name|escape:html}</span> <a class="more" href="{$goods_cat.url}">更多</a></h4>
+<h4 class="title"><span>{$goods_cat.name|escape:html}</span> <a class="more" href="{$goods_cat.url}">更多 >></a></h4>
 <div id="show_hot_area" class="clearfix">
 
  

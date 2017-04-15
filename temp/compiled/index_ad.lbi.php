@@ -4,8 +4,8 @@
 
 .container{width:100%; height:413px; overflow:hidden;position:relative;}
 
-.slider{position:absolute; width:400%; height:413px;}
-.slider li , .slider li a{list-style:none; float:left;width:100%; height:413px; width:25%;}
+.slider{position:absolute; width:500%; height:413px;}
+.slider li , .slider li a{list-style:none; float:left; height:413px; width:20%;}
 .slider img{width:100%; height:413px; display:block;}
 
 .slider2{width:2000px;}
@@ -42,21 +42,21 @@
 </style>
 <div class="container" id="idTransformView">
   <ul class="slider" id="idSlider">
-  <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_82959600_1491939821');$this->_foreach['myflash'] = array('total' => count($_from), 'iteration' => 0);
+  <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_82885900_1492205174');$this->_foreach['myflash'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['myflash']['total'] > 0):
-    foreach ($_from AS $this->_var['flash_0_82959600_1491939821']):
+    foreach ($_from AS $this->_var['flash_0_82885900_1492205174']):
         $this->_foreach['myflash']['iteration']++;
 ?>
-      <li style="background:url(<?php echo $this->_var['flash_0_82959600_1491939821']['src']; ?>) center 0 no-repeat; background-size:100%;"><a href="<?php echo $this->_var['flash_0_82959600_1491939821']['url']; ?>" target="_blank"></a></li>
+      <li style="background:url(<?php echo $this->_var['flash_0_82885900_1492205174']['src']; ?>) center 0 no-repeat;"><a href="<?php echo $this->_var['flash_0_82885900_1492205174']['url']; ?>" target="_blank"></a></li>
       <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 
   </ul>
   <ul class="num" id="idNum">
  
     
-     <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_82966900_1491939821');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
+     <?php $_from = $this->_var['flash']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'flash_0_82893900_1492205174');$this->_foreach['no'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['no']['total'] > 0):
-    foreach ($_from AS $this->_var['flash_0_82966900_1491939821']):
+    foreach ($_from AS $this->_var['flash_0_82893900_1492205174']):
         $this->_foreach['no']['iteration']++;
 ?>
      <li>
@@ -176,8 +176,9 @@ window.onload=function(){
 	
 	var objs = $("idNum").getElementsByTagName("li");
 	
+	var slider = $('idSlider');
 	
-	var tv = new TransformView("idTransformView", "idSlider", 1903, 5, {
+	var tv = new TransformView("idTransformView", "idSlider", slider.offsetWidth/5 , 5, {
 		onStart : function(){ Each(objs, function(o, i){o.className = tv.Index == i ? "on" : "";}) }//按钮样式
 	});
 	

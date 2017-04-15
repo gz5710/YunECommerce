@@ -39,10 +39,11 @@
   
 
   
+  <?php echo $this->_var['idx = 1']; ?>
   
-<?php echo $this->fetch('library/cat_goods.lbi'); ?>
-<?php echo $this->fetch('library/cat_goods.lbi'); ?>
-<?php echo $this->fetch('library/cat_goods.lbi'); ?>
+<?php $this->assign('cat_goods',$this->_var['cat_goods_6']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_6']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+<?php $this->assign('cat_goods',$this->_var['cat_goods_12']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_12']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
+<?php $this->assign('cat_goods',$this->_var['cat_goods_1']); ?><?php $this->assign('goods_cat',$this->_var['goods_cat_1']); ?><?php echo $this->fetch('library/cat_goods.lbi'); ?>
 
   </div> 
   
